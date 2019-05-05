@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hamburguers For Us</string>
+    <string name="btn_accept">Aceptar</string>
+    <string name="img_item_desc">Imagen de Restaurante</string>
+    <string name="title_activity_show_hamburguers">MostrarActividadHamburguesa</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="conf_del_tit">Eliminar hamburguesa</string>
+    <string name="conf_del_mss">Estás seguro que desea eliminar:</string>
+    <string name="msg_share_sbj">Sujeto:</string>
+    <string name="msg_share_txt1">Ven a</string>
+    <string name="msg_share_txt2">y disfruta de nuestro fantástico menú en la dirección</string>
+    <string name="msg_share_txt3">o llamanos al teléfono</string>
+    <string name="msg_share_title">Comparte esta hamburguesa!</string>
+</resources>

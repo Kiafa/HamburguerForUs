@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context="com.practica.kiafa.pandroidkjp.vista.ShowHamburguersActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="89dp"
+        android:layout_height="76dp"
+        android:background="@drawable/phone"
+        android:layout_gravity="bottom|start"
+        android:onClick="callHamburguer"/>
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="89dp"
+        android:layout_height="76dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/map_ico"
+        android:onClick="mapHamburguer" />
+
+</android.support.design.widget.CoordinatorLayout>

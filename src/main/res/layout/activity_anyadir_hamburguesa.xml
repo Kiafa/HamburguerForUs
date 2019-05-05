@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    tools:context="com.practica.kiafa.pandroidkjp.vista.AnyadirHamburguesaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:scrollbars="horizontal">
+
+        <ImageButton
+            android:id="@+id/hamburguer_photo"
+            android:layout_width="322dp"
+            android:layout_height="368dp"
+            android:contentDescription="@android:string/no"
+            android:onClick="onClickTakePhoto"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/take_photo_default_icon" />
+
+        <EditText
+            android:id="@+id/et_hamburguer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/add_ham_name"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/et_hamburguer_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/add_ham_dir"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_hamburguer_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/add_ham_num_telf"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/et_hamburguer_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/add_ham_email"
+            android:imeActionLabel="la"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/bt_hamburguer_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:onClick="onClickOkButton"
+            android:text="@string/add_ham_ok" />
+    </LinearLayout>
+</ScrollView>
